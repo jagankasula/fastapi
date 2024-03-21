@@ -1,3 +1,5 @@
-pip install transformers
-pip install sentencepiece
-pip install sacremoses
+fastapi
+uvicorn[standard]
+transformers
+sentencepiece
+sacremoses
