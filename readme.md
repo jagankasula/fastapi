@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 ## Execution
-Hugging Face API Key: To use the fileInput and urlInput functionalities, you need to obtain an API key from Hugging Face. You can acquire the API key from Hugging Face settings. Once obtained, replace the placeholder 'api_key' in server.py with your actual API key.
+Hugging Face API Key: To use the fileInput and urlInput functionalities, you need to obtain an API key from Hugging Face. You can acquire the API key from [here](https://huggingface.co/settings/tokens). Once obtained, replace the placeholder 'api_key' in server.py with your actual API key.
 
 Running the Server and Client:
 
@@ -33,7 +33,7 @@ Navigate to the folder of interest using the command line (e.g., cd urlInput).
 ## Folder Information
 ### fileInput
 Server uses hugginface APIS to handle Client requests.
-- The client sends a **file** <span style="color:red;">Text in red</span> in the API request to the server.
+- The client sends a **file** in the API request to the server.
 - The server processes the file and sends the response back to the client.
 - For testing with different inputs, specify the path of your local file in the image_path or audio_path variables in client.py file.
 
