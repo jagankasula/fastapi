@@ -1,0 +1,2 @@
+Sample audio files:
+https://www.signalogic.com/index.pl?page=speech_codec_wav_samples
