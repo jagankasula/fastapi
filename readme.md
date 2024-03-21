@@ -1,4 +1,4 @@
-# Client-Server Model for Natural Language Processing Tasks
+# Client-Server Model using FASTAPI
 
 This repository implements a client-server model for obtaining image captions, audio transcriptions, and text translations by sending API requests using the Python FastAPI framework.
 
