@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ## Execution
 Hugging Face API Key: To use the fileInput and urlInput functionalities, you need to obtain an API key from Hugging Face. You can acquire the API key from [here](https://huggingface.co/settings/tokens). Once obtained, replace the placeholder 'api_key' in server.py with your actual API key.
 
-Running the Server and Client:
+### Running the Server and Client:
 
 Navigate to the folder of interest using the command line (e.g., cd urlInput).
 - Running the Server and Client:
@@ -29,6 +29,13 @@ Navigate to the folder of interest using the command line (e.g., cd urlInput).
   ```bash
   python3 client.py
   ```
+### Testing with Swagger UI:
+- Start the server by running the command:
+  ```bash
+  uvicorn server:app --reload
+  ```
+- After starting the server, copy the http address of the server and append '/docs' to it and open it in the browser. Now the server API endpoints will be available from testing.
+    E.g. http://127.0.0.1:8000/docs
 
 ## Folder Information
 ### fileInput
