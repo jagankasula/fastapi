@@ -56,3 +56,8 @@ The server maintains pre-trained text translation model in it and processes clie
 - The client sends text (in English) in the API request to the server.
 - The server processes the text and sends the translated response back to the client.
 - For testing with different inputs, change the text in the text variable in client.py file.
+
+## References
+- FastAPI - https://fastapi.tiangolo.com/
+- Python Requests - https://www.geeksforgeeks.org/python-requests-tutorial/
+- Pre-trained models (hugginface) - https://huggingface.co/transformers/v3.3.1/pretrained_models.html
