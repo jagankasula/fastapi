@@ -34,8 +34,9 @@ Navigate to the folder of interest using the command line (e.g., cd urlInput).
   ```bash
   uvicorn server:app --reload
   ```
-- After starting the server, copy the http address of the server and append '/docs' to it and open it in the browser. Now the server API endpoints will be available from testing.
-    E.g. http://127.0.0.1:8000/docs
+- After starting the server, copy the HTTP address of the server and append '/docs' to it. 
+  For example: http://127.0.0.1:8000/docs
+- Open this address in your browser. Now, the APIs can be tested from the Swagger UI.
 
 ## Folder Information
 ### fileInput
