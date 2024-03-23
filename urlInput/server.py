@@ -24,7 +24,7 @@ async def generate_caption_api(image_request: Request):
 
 def transcribe_audio_huggingface(url):
     endpoint = "https://api-inference.huggingface.co/models/facebook/wav2vec2-base-960h"
-    headers = {"Authorization": "api_key"}  # Replace 'api_key' with your Hugging Face API key 
+    headers = {"Authorization": "Bearer api_key"}  # Replace 'api_key' with your Hugging Face API key 
     data = {"url": url}
     
     response = requests.post(endpoint, json=data, headers=headers)

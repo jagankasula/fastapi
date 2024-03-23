@@ -33,7 +33,7 @@ def generate_caption_huggingface(image):
 
 def transcribe_audio_huggingface(audio_file):
     endpoint = "https://api-inference.huggingface.co/models/facebook/wav2vec2-base-960h"
-    headers = {"Authorization": "api_key"}  # Replace 'api_key' with your Hugging Face API key 
+    headers = {"Authorization": "Bearer api_key"}  # Replace 'api_key' with your Hugging Face API key 
     # Read the audio file
     with open(audio_file, "rb") as file:
         audio_data = file.read()
